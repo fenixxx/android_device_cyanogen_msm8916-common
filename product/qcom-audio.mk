@@ -6,8 +6,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -20,3 +18,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.pcm.24bit.enable=true \
     audio.offload.video=true \
     use.voice.path.for.pcm.voip=true
+
